@@ -1,0 +1,54 @@
+{
+  "name": "ponyango-tagger",
+  "version": "1.1.8",
+  "description": "Vite plugin for component tagging",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "echo 'build disabled - using prebuilt dist'",
+    "dev": "echo 'dev disabled - using prebuilt dist'",
+    "test": "echo 'test disabled'",
+    "lint": "echo 'lint disabled'",
+    "prepublishOnly": "echo 'skip'",
+    "clean": "echo 'clean disabled'",
+    "prepare": "echo 'prepare disabled'",
+    "format": "echo 'format disabled'",
+    "coverage": "echo 'coverage disabled'"
+  },
+  "keywords": [
+    "vite",
+    "plugin",
+    "component",
+    "tagger"
+  ],
+  "author": "Emil Fagerholm",
+  "license": "MIT",
+  "peerDependencies": {
+    "vite": "^5.0.0"
+  },
+  "dependencies": {
+    "@babel/parser": "^7.25.9",
+    "@babel/types": "^7.25.8",
+    "esbuild": "^0.25.0",
+    "estree-walker": "^3.0.3",
+    "magic-string": "^0.30.12",
+    "tailwindcss": "^3.4.17"
+  },
+  "devDependencies": {
+    "@types/babel__core": "^7.20.5",
+    "@types/estree": "^1.0.6",
+    "@types/node": "^22.5.5",
+    "@typescript-eslint/eslint-plugin": "^6.7.0",
+    "@typescript-eslint/parser": "^6.7.0",
+    "eslint": "^8.49.0",
+    "rimraf": "^5.0.0",
+    "tsup": "^7.2.0",
+    "typescript": "^5.5.3",
+    "vitest": "^0.34.6"
+  }
+}
