@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
-import { componentTagger } from './ponyango-tagger'
+import { componentTagger } from "ponyango-tagger";
 
 export default defineConfig(({ mode }) => ({
   server: {
